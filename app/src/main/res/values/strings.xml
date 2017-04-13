@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HomeAutomationMobileApp</string>
+
+    <string name="font_awesome_pencil_icon">&#xf040;</string>
+    <string name="font_awesome_bathRoom_icon">&#xf2cd;</string>
+    <string name="font_awesome_tvRoom_icon">&#xf26c;</string>
+    <string name="font_awesome_garage_icon">&#xf1ba;</string>
+    <string name="font_awesome_bedRoom_icon">&#xf236;</string>
+    <string name="font_awesome_kitchen_icon">&#xf0f5;</string>
+
+</resources>

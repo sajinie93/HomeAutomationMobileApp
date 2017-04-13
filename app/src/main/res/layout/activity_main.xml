@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.sajini.homeautomationmobileapp.MainActivity"-->
+    <!--tools:layout_editor_absoluteY="81dp"-->
+    <!--tools:layout_editor_absoluteX="0dp">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sajini.homeautomationmobileapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/font_awesome_pencil_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="goInside"
+            android:text="@string/font_awesome_pencil_icon"
+            android:textColor="#be29ec"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/font_awesome_bathRoom_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/font_awesome_bathRoom_icon"
+            android:textColor="#ffd3b6"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/font_awesome_tv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/font_awesome_tvRoom_icon"
+            android:textColor="#009fff"
+            android:textSize="80sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/font_awesome_cutlery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="goInside"
+            android:text="@string/font_awesome_kitchen_icon"
+            android:textColor="#8ae429"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/font_awesome_bed_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/font_awesome_bedRoom_icon"
+            android:textColor="#ff084a"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/font_awesome_cab_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/font_awesome_garage_icon"
+            android:textColor="#7b7d7b"
+            android:textSize="80sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:autoLink="web"
+        android:gravity="center|bottom"
+        android:text="ViralAndroid.com"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
